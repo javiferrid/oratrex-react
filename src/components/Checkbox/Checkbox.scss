@@ -1,0 +1,63 @@
+@import "../../scss/colors.scss";
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  input {
+    appearance: none;
+    border-radius: 2px;
+    width: 16px;
+    height: 16px;
+  }
+
+  input:checked::before {
+    content: url(../../assets/icons/checkbox.svg);
+    font-size: 1rem;
+    top: -4px;
+    left: 2px;
+    position: relative;
+  }
+}
+
+.light-checkbox {
+  color: $GRAY_100;
+
+  input {
+    border: 1px solid $GRAY_100;
+  }
+
+  input:checked {
+    background-color: $GRAY_100;
+  }
+
+  input:checked::before {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+  }
+
+
+  span {
+    color: $DARK_DEFAULT;
+  }
+}
+
+.dark-checkbox {
+  color: $WHITE_100;
+
+  input {
+    border: 1px solid $WHITE_100;
+  }
+
+  input:checked {
+    background-color: $WHITE_100;
+  }
+
+  input:checked::before {
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+  }
+
+  span {
+    color: $WHITE_100;
+  }
+}

@@ -1,0 +1,19 @@
+.container {
+  margin-top: 40px;
+}
+
+.language-form {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  .checkbox {
+    margin: 0px 16px 24px 16px;
+    justify-content: space-between;
+  }
+  input {
+    order: 2;
+  }
+  span {
+    order: 1;
+  }
+}

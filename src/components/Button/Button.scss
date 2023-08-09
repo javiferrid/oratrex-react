@@ -1,0 +1,93 @@
+@import './../../scss/fonts.scss';
+@import './../../scss/colors.scss';
+
+.button {
+  padding: 16px;
+  font: $B2_REGULAR_14;
+  border-radius: 12px;
+  border: none;
+  color: $WHITE-100;
+}
+
+.min-width {
+  min-width: 150px;
+}
+
+.button-content {
+  gap: 8px;
+}
+
+.light-default {
+  background-color: $WIREFRAME-INTERACTIVE;
+}
+
+.light-default.backbutton {
+  background-color: #88888b;
+}
+
+.light-default:hover,
+.light-default:active {
+  background-color: $LIGHT-DEFAULT-HOVER;
+}
+
+.dark-default {
+  background-color: $WHITE-30;
+  transition: 0.3s;
+}
+
+.dark-default:hover,
+.dark-default:active {
+  background-color: $DARK-DEFAULT-HOVER;
+}
+
+.light-disabled {
+  background-color: $GRAY-20;
+  color: $GRAY-20;
+}
+
+.dark-disabled {
+  background-color: $WHITE-10;
+  color: $WHITE-10;
+}
+
+.light-outlined {
+  background: transparent;
+  border: 2px solid $LIGHT-DEFAULT;
+  color: $GRAY-100 ;
+}
+
+.dark-outlined {
+  background: transparent;
+  border: 2px solid $WHITE-30;
+  color: $WHITE-100;
+}
+
+.xl-size {
+  width: 55px;
+  height: 55px;
+  border-radius: 30px;
+}
+
+.lg-size {
+  width: 44px;
+  height: 44px;
+  border-radius: 30px;
+}
+
+.sm-size {
+  width: 24px;
+  height: 24px;
+  border-radius: 20px;
+}
+
+.light-no-text {
+  background-color: rgba(60, 52, 99, 0.7);
+}
+
+.dark-no-text {
+  background-color: $WHITE_75;
+
+  svg {
+    color: $DARK_DEFAULT;
+  }
+}

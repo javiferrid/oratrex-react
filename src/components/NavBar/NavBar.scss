@@ -1,0 +1,18 @@
+@import '../../scss/colors.scss';
+
+.nav-container {
+  width: 100%;
+  height: -300px;
+  bottom: 0;
+  left: 0;
+  gap: 40px;
+  padding-bottom: 16px;
+}
+
+.light-nav {
+  background: $LIGHT-BG-GRADIENT;
+}
+
+.dark-nav {
+  background: $DARK_BG_GRADIENT;
+}

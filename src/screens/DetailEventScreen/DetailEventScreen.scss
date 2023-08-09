@@ -1,0 +1,30 @@
+@import '../../scss/fonts.scss';
+@import '../../scss/colors.scss';
+
+.detail-ticket-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: $WHITE-100;
+}
+
+.navBack {
+    position: fixed;
+    top: 48px;
+    left: 16px;
+}
+
+.light-bg-vertical-gradient {
+    background: $LIGHT-DEFAULT-VERTICAL-GRADIENT;
+}
+
+.dark-bg-vertical-gradient {
+    background: $DARK-DEFAULT-VERTICAL-GRADIENT;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

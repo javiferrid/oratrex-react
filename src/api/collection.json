@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "date": "Sun Jul 08 2023 00:00:00 GMT+0200",
+    "eventName": "Kombutxa Festival Oratrex",
+    "img": "assets/tickets/yellow2.png",
+    "clientColor": "#DDD131",
+    "type": "collection"
+  },
+  {
+    "id": "2",
+    "date": "Sun Jul 07 2023 00:00:00 GMT+0200",
+    "eventName": "Kombutxa Festival Oratrex",
+    "img": "assets/tickets/gray2.png",
+    "clientColor": "#A3A3A3",
+    "type": "event"
+  },
+  {
+    "id": "3",
+    "date": "Sun Jul 06 2023 00:00:00 GMT+0200",
+    "eventName": "Kombutxa Festival Oratrex",
+    "img": "assets/tickets/blue2.png",
+    "clientColor": "#4EADE3",
+    "type": "collection"
+  },
+  {
+    "id": "1",
+    "date": "Sun Jul 08 2023 00:00:00 GMT+0200",
+    "eventName": "¡Premio!",
+    "img": "assets/tickets/yellow2.png",
+    "clientColor": "#ff7e9e",
+    "gradientColor": "linear-gradient(90deg, #E5DA31 0%, #01B1EA 54.79%, #FF7E9E 92.23%, rgba(255, 126, 158) 100%)",
+    "type": "collection",
+    "location": "location",
+    "time": "time"
+  }
+]

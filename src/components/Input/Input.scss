@@ -1,0 +1,33 @@
+@import '../../scss/colors.scss';
+
+.input {
+  width: 100%;
+  margin: 8px 0px 16px 0px;
+  padding: 16px;
+  display: inline-block;
+  border: 0px;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+.light-input:focus {
+  outline: none;
+  background-color: $GRAY_30;
+  color: $GRAY_100;
+}
+
+.dark-input:focus {
+  outline: none;
+  background-color: $WHITE_30;
+  color: $WHITE_100;
+}
+
+.light-input {
+  background-color: $GRAY_20;
+  color: $GRAY_100;
+}
+
+.dark-input {
+  background-color: $WHITE_10;
+  color: $WHITE_100;
+}

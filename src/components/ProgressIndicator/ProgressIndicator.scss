@@ -1,0 +1,19 @@
+@import '../../scss/colors.scss';
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+}
+
+.active {
+  background-color: $WHITE-100;
+}
+
+.inactive {
+  background-color: $WHITE-50;
+}
+
+.progress-indicator-container {
+  gap: 8px;
+}

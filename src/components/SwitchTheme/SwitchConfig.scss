@@ -1,0 +1,51 @@
+.switch-cont {
+  display: block;
+  --width-of-switch: 2.5em;
+  --height-of-switch: 1.4em;
+  --size-of-icon: 0.8em;
+  --slider-offset: 0.3em;
+  position: relative;
+  width: var(--width-of-switch);
+  height: var(--height-of-switch);
+}
+
+.switch-cont input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f4f4f5;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 30px;
+  border: 1px solid #f4f4f5;
+}
+
+.switch-slider:before {
+  position: absolute;
+  content: "";
+  height: var(--size-of-icon, 1.4em);
+  width: var(--size-of-icon, 1.4em);
+  border-radius: 20px;
+  left: var(--slider-offset, 0.3em);
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background: #303136;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.checkbox-checked + .switch-slider:before {
+  left: calc(100% - (var(--size-of-icon, 1.4em) + var(--slider-offset, 0.3em)));
+  background: linear-gradient(40deg, #ff0080, #ff8c00 70%);
+}

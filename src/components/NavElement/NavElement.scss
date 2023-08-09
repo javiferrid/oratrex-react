@@ -1,0 +1,26 @@
+@import "../../scss/colors.scss";
+
+.nav-option {
+  margin-bottom: 16px;
+  gap: 4px;
+}
+
+.light-nav {
+  color: $GRAY-100;
+  opacity: 1;
+}
+
+.dark-nav {
+  color: $WHITE-100;
+  opacity: 1;
+}
+
+.light-nav-secondary {
+  color: $GRAY-100;
+  opacity: 0.75;
+}
+
+.dark-nav-secondary {
+  color: $WHITE-100;
+  opacity: 0.75;
+}

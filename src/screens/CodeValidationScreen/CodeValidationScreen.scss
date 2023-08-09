@@ -1,0 +1,45 @@
+.validation-container {
+  width: 100vw;
+  padding: 0px 16px;
+  display: inline-block;
+  box-sizing: border-box;
+  position: fixed;
+  margin-top: 40px;
+}
+
+.validation-container.empty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  button {
+    margin-top: 50px;
+  }
+}
+
+.buttons-container {
+  gap: 24px;
+  top: -12px;
+  position: relative;
+}
+
+.line {
+  width: 40vw;
+  box-sizing: border-box;
+  display: inline-block;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.light-line {
+  border: 1px solid #4443474D;
+}
+
+.dark-line {
+  border: 1px solid #FFFFFF4D;
+}
+
+.letter {
+  padding: 8px;
+}

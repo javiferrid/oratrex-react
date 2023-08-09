@@ -1,0 +1,170 @@
+{
+  "welcome-screen": {
+    "title": "Welcome to",
+    "login": "Login",
+    "register": "Register"
+  },
+  "profile-screen": {
+    "title": "Profile",
+    "subtitle": "Hello",
+    "config": "Theme",
+    "userdata": "Personal Data",
+    "privacy-politics": "Privacy Policy",
+    "terms": "Terms and Conditions",
+    "language": "Language",
+    "logout": "Logout"
+  },
+  "login-screen": {
+    "title": "Login",
+    "email-ph": "Email",
+    "email-label": "Email",
+    "password-ph": "Password",
+    "password-label": "Password",
+    "login": "Login",
+    "forgot-password": "¿Forgot your password?"
+  },
+  "userdata-screen": {
+    "title": "Personal Data",
+    "name": "Name and last name",
+    "email": "Email",
+    "phone": "Phone number",
+    "edit": "Edit",
+    "lastname": "Lastname",
+    "save": "Save"
+  },
+  "code-val-screen": {
+    "title": "Validate a code",
+    "subtitle": "Hello",
+    "instructions": "You can write the code below:",
+    "code-ph": "Introduce a code",
+    "validate": "Validate",
+    "scan": "Scan code"
+  },
+  "ticket-screen": {
+    "title": "Your events",
+    "subtitle": "Hello",
+    "collectibles": "Collectibles",
+    "tickets": "Tickets",
+    "SOLD": "Valid",
+    "USED": "Already validated"
+  },
+  "language-screen": {
+    "title": "Language"
+  },
+  "modal": {
+    "logout": {
+      "title": "Are you sure you want to logout?",
+      "accept": "Logout",
+      "cancel": "Cancel"
+    },
+    "welcome": {
+      "title": "Welcome to ORATREX, the Oratrex promotions App!",
+      "description": "Scan 5 Oratrex Kombutxa bottle barcodes and you will receive a 15% discount for the purchase of the Oratrex 2023 ticket of your choice.",
+      "subtext": "Every time you scan a code, you will receive an exclusive NFT!",
+      "accept": "Accept"
+    },
+    "used-code": {
+      "title": "This code has already been used",
+      "description": "This code can only be used once per user",
+      "accept": "Accept"
+    },
+    "login": {
+      "title": "Invalid username or password",
+      "accept": "Accept"
+    },
+    "signup": {
+      "title": "Signup error",
+      "error": {
+        "email": "Email already registered",
+        "bbdd": "We are experiencing technical problems, please try again later"
+      },
+      "accept": "Accept"
+    },
+    "Kombutxa": {
+      "title": "You've got the 3 NFTs of Kombutxa!",
+      "description": "Now you have a new NFT that will give you access to a 15% discount on your next purchase",
+      "accept": "Accept"
+    },
+    "update": {
+      "title": "Upgrade available",
+      "description": "Download the latest update to continue enjoying the benefits of ORATREX",
+      "accept": "Update"
+    },
+    "qr": {
+      "title": "This is your QR",
+      "description": "Show it to receive your prize"
+    }
+  },
+  "event-detail-screen": {
+    "details": "Purchase details"
+  },
+  "nav-bar": {
+    "events": "My Events",
+    "validate": "Validate code",
+    "profile": "Configuration"
+  },
+  "register-screen": {
+    "title": "Register",
+    "username": "Name",
+    "ph-username": "Name",
+    "lastName": "Last name",
+    "ph-lastName": "Last name",
+    "email": "Email",
+    "ph-email": "Email",
+    "password": "Password",
+    "ph-password": "Password",
+    "advice-password": "The password must contain a capital letter, a number and a minimum of 8 characters.",
+    "next": "Next"
+  },
+  "collectible-detail-screen": {
+    "see-nft": "Open NFT",
+    "see-qr": "Open QR",
+    "you-have": "You have",
+    "codes": "codes",
+    "scanned": "Obtained on",
+    "tickets-link": "Buy tickets",
+    "copy": "Copy",
+    "your-code": "Your code"
+  },
+  "code-scanner-screen": {
+    "instruction": "Place the code inside the field to generate your new Ticket"
+  },
+  "terms-and-conditions-screen": {
+    "title": "Terms and conditions",
+    "body": "Great! Before continuing and accessing the application, it is important that you read and accept our Terms and Conditions. We recommend that you review them carefully to ensure an optimal experience and to be informed on how to use our services properly.",
+    "link": "Read more Terms and Conditions",
+    "button": "Continue",
+    "condition": "I accept the",
+    "termsAndConditions": "Terms and Conditions",
+    "privacyPolicy": "Privacy Policy"
+  },
+  "ticket-list": {
+    "empty-message": "Scan your first code!",
+    "button": "Validate code"
+  },
+  "ticket-status": {
+    "awaiting": "Awaiting",
+    "onSale": "On sale",
+    "holderChange": "Holder Change",
+    "winner": "Awarded",
+    "loser": "Not awarded"
+  },
+  "dropdown": {
+    "name": "Name",
+    "lastName": "Last name",
+    "email": "Email",
+    "price": "Price",
+    "purchaseID": "Purchase identifier"
+  },
+  "errors": {
+    "ops": "Oops!",
+    "login-incorrect": "Incorrect username or password",
+    "login-unknown": "An error has occurred",
+    "register-taken": "Email is already in use",
+    "register-unknown": "An error has occurred",
+    "register-invalid-register": "Check the data",
+    "scan-incorrect-code": "Incorrect code",
+    "scan-time": "Not enough time has passed to scan another code",
+    "scan-unknown": "An error has occurred"
+  }
+}

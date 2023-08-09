@@ -1,0 +1,170 @@
+{
+  "welcome-screen": {
+    "title": "Et donem la benvinguda!",
+    "login": "Inicia sessió",
+    "register": "Registra't"
+  },
+  "profile-screen": {
+    "title": "Perfil",
+    "subtitle": "Hola",
+    "config": "Tema",
+    "userdata": "Dades personals",
+    "privacy-politics": "Política de privadesa",
+    "terms": "Termes i condicions",
+    "language": "Idioma",
+    "logout": "Tancar sessió"
+  },
+  "login-screen": {
+    "title": "Iniciar sessió",
+    "email-ph": "Correu electrònic",
+    "email-label": "Correu electrònic",
+    "password-ph": "Contrasenya",
+    "password-label": "Contrasenya",
+    "login": "Inicia sessió",
+    "forgot-password": "¿Has oblidat la contrasenya?"
+  },
+  "userdata-screen": {
+    "title": "Dades personals",
+    "name": "Nom",
+    "lastname": "Cognoms",
+    "email": "Correu electrònic",
+    "phone": "Número de telèfon",
+    "edit": "Editar",
+    "save": "Desar"
+  },
+  "code-val-screen": {
+    "title": "Valida un codi",
+    "subtitle": "Hola",
+    "instructions": "Pots escriure el codi a continuació:",
+    "code-ph": "Introdueix un codi",
+    "validate": "Validar",
+    "scan": "Escanejar codi"
+  },
+  "ticket-screen": {
+    "title": "Events",
+    "subtitle": "Hola",
+    "collectibles": "Colleccionables",
+    "tickets": "Tickets",
+    "SOLD": "Válid",
+    "USED": "Ja validat"
+  },
+  "event-detail-screen": {
+    "details": "Detalls de la compra"
+  },
+  "language-screen": {
+    "title": "Idioma"
+  },
+  "modal": {
+    "logout": {
+      "title": "Segur que vols tancar sessió?",
+      "accept": "Tancar sessió",
+      "cancel": "Cancelar"
+    },
+    "welcome": {
+      "title": "Et donem la benvinguda a ORATREX, l’app de promocions i sortejos del Oratrex!",
+      "description": "Escaneja 5 codis de barres de les ampolles de la Oratrex Kombutxa i rebràs un descompte del 15% per a la compra de la entrada que tu vulguis al Oratrex 2023.",
+      "subtext": "Cada cop que escanegis un codi, rebràs un NFT exclusiu!",
+      "accept": "Acceptar"
+    },
+    "used-code": {
+      "title": "Aquest codi ja va ser utilitzat",
+      "description": "Aquest codi només es pot utilitzar una vegada per usuari",
+      "accept": "Acceptar"
+    },
+    "login": {
+      "title": "Usuari o contrasenya incorrecta",
+      "accept": "Acceptar"
+    },
+    "signup": {
+      "title": "Error al registre",
+      "error": {
+        "email": "Email ja registrat",
+        "bbdd": "Estem experimentant problemes tècnics, si us plau, intenta més tard"
+      },
+      "accept": "Acceptar"
+    },
+    "Kombutxa": {
+      "title": "Has aconseguit els 3 NFT de Kombutxa!",
+      "description": "Ara comptes amb un nou NFT que et donarà accés a un 15% de descompte a la teva propera compra",
+      "accept": "Acceptar"
+    },
+    "update": {
+      "title": "Actualització disponible",
+      "description": "Descarrega l'última actualització per continuar gaudint dels avantatges de ORATREX",
+      "accept": "Actualitzar"
+    },
+    "qr": {
+      "title": "aquest és el teu QR",
+      "description": "Mostra el codi per rebre el premi"
+    }
+  },
+  "nav-bar": {
+    "events": "Events",
+    "validate": "Validar codi",
+    "profile": "Configuració"
+  },
+  "register-screen": {
+    "title": "Registre",
+    "username": "Nom",
+    "ph-username": "Nom",
+    "lastName": "Cognom",
+    "ph-lastName": "Cognom",
+    "email": "Correu electrònic",
+    "ph-email": "Correu electrònic",
+    "password": "Contrasenya",
+    "ph-password": "Contrasenya",
+    "advice-password": "La contrasenya ha de contenir una majúscula, un número i mínim 8 caràcters",
+    "next": "Següent"
+  },
+  "collectible-detail-screen": {
+    "see-nft": "Veure NFT",
+    "see-qr": "Veure QR",
+    "you-have": "Tens",
+    "codes": "codis",
+    "scanned": "Aconseguit el",
+    "tickets-link": "Comprar entrades",
+    "copy": "Copiar",
+    "your-code": "El teu codi"
+  },
+  "code-scanner-screen": {
+    "instruction": "Ubica el codi dins del requadre per generar el teu nou Ticket"
+  },
+  "terms-and-conditions-screen": {
+    "title": "Termes i condicions",
+    "body": "Fantàstic! Abans de continuar i accedir a l'aplicació, és important que llegiu i accepteu els nostres Termes i Condicions. Et recomanem revisar-los detingudament per garantir una experiència òptima i estar informat sobre com utilitzar els nostres serveis de manera adequada.",
+    "link": "Veure més termes i condicions",
+    "termsAndConditions": "Accepto els Termes i Condicions",
+    "button": "Continuar",
+    "condition": "Accepto la",
+    "privacyPolicy": "Política de Privadesa"
+  },
+  "ticket-list": {
+    "empty-message": "Escaneja el teu primer codi!",
+    "button": "Validar codi"
+  },
+  "ticket-status": {
+    "awaiting": "Tot espera",
+    "onSale": "A la venda",
+    "holderChange": "Canvi de titular",
+    "winner": "Premiat",
+    "loser": "No premiat"
+  },
+  "dropdown": {
+    "name": "Nom",
+    "lastName": "Cognom",
+    "email": "Correu electrònic",
+    "price": "Preu",
+    "purchaseID": "Codi de compra"
+  },
+  "errors": {
+    "ops": "Oops!",
+    "login-incorrect": "Usuari o contrasenya incorrectes",
+    "login-unknown": "Ha passat un error",
+    "register-taken": "El correu electrònic ja està sent utilitzat",
+    "register-unknown": "Ha passat un error",
+    "register-invalid-register": "Comprueba los datos",
+    "scan-incorrect-code": "Codi incorrecte",
+    "scan-time": "No ha passat prou temps per escanejar un altre codi",
+    "scan-unknown": "Ha passat un error"
+  }
+}

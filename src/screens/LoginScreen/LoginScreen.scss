@@ -1,0 +1,21 @@
+.button-container {
+  margin-top: 24px;
+  gap: 24px;
+}
+
+#login-title {
+  margin-bottom: 40px;
+}
+
+.input-password {
+  margin-bottom: 24px;
+
+  i {
+    position: absolute;
+    right: 0;
+    bottom: 50;
+    margin-top: 25px;
+    padding-right: 30px;
+    cursor: pointer;
+  }
+}

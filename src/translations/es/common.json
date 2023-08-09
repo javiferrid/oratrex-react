@@ -1,0 +1,188 @@
+{
+  "welcome-screen": {
+    "title": "¡Te damos la bienvenida!",
+    "login": "Inicia sesión",
+    "register": "Regístrate"
+  },
+  "profile-screen": {
+    "title": "Ajustes",
+    "subtitle": "Hola",
+    "config": "Validación automática",
+    "userdata": "Datos personales",
+    "privacy-politics": "Política de privacidad",
+    "terms": "Términos y condiciones",
+    "language": "Idioma",
+    "logout": "Cerrar sesión"
+  },
+  "login-screen": {
+    "title": "Iniciar sesión",
+    "email-ph": "Correo electrónico",
+    "email-label": "Correo electrónico",
+    "password-ph": "Contraseña",
+    "password-label": "Contraseña",
+    "login": "Inicia sesión",
+    "forgot-password": "¿Olvidaste tu contraseña?"
+  },
+  "userdata-screen": {
+    "title": "Datos personales",
+    "name": "Nombre",
+    "lastname": "Apellidos",
+    "email": "Correo electrónico",
+    "phone": "Número de teléfono",
+    "edit": "Editar",
+    "save": "Guardar"
+  },
+  "code-val-screen": {
+    "title": "Valida ticket",
+    "subtitle": "Hola",
+    "instructions": "Puedes escribir el código a continuación:",
+    "code-ph": "Introduce un código",
+    "validate": "Validar",
+    "scan": "Escanear ticket",
+    "no-event-selected": "Primero debes seleccionar un evento para poder validar los tickets."
+  },
+  "events-screen": {
+    "title": "Eventos"
+  },
+  "ticket-screen": {
+    "title": "Tus eventos",
+    "subtitle": "Hola",
+    "collectibles": "Coleccionables",
+    "tickets": "Tickets",
+    "SOLD": "Válido",
+    "USED": "Ya validado",
+    "WRONG_EVENT": "No válido",
+    "NOT_FOUND_TICKET": "No válido",
+    "errors": {
+      "USED": "¡Este ticket ya ha sido validado! Prueba con otro ticket distinto.",
+      "WRONG_EVENT": "¡Este ticket pertenece a otro evento!",
+      "NOT_FOUND_TICKET": "Este ticket no existe. Prueba de nuevo con un código distinto."
+    }
+  },
+  "language-screen": {
+    "title": "Idioma"
+  },
+  "modal": {
+    "logout": {
+      "title": "¿Seguro que deseas cerrar sesión?",
+      "accept": "Cerrar sesión",
+      "cancel": "Cancelar"
+    },
+    "welcome": {
+      "title": "¡Te damos la bienvenida a ORATREX, la App de promociones y sorteos del Oratrex!",
+      "description": "Escanea 5 códigos de barras de las botellas Oratrex Kombutxa y recibirás un descuento del 15% para la compra de la entrada que tu quieras del Oratrex 2023.",
+      "subtext": "¡Cada vez que escanees un código , recibirás un NFT exclusivo!",
+      "accept": "Aceptar"
+    },
+    "used-code": {
+      "title": "Este código ya fue utilizado",
+      "description": "Este código solo puede usarse una vez por usuario",
+      "accept": "Aceptar"
+    },
+    "login": {
+      "title": "Usuario o contraseña incorrecta",
+      "accept": "Aceptar"
+    },
+    "signup": {
+      "title": "Error en el registro",
+      "error": {
+        "email": "Email ya registrado",
+        "bbdd": "Estamos experimentando problemas técnicos, por favor, intenta más tarde"
+      },
+      "accept": "Aceptar"
+    },
+    "Kombutxa": {
+      "title": "¡Has conseguido los 3 NFTs de Kombutxa!",
+      "description": "Ahora cuentas con un nuevo NFT que te dará acceso a un 15% de descuento en tu próxima compra",
+      "accept": "Aceptar"
+    },
+    "update": {
+      "title": "Actualización disponible",
+      "description": "Descarga la última actualización para seguir disfrutando de las ventajas de ORATREX",
+      "accept": "Actualizar"
+    },
+    "qr": {
+      "title": "Este es tu QR",
+      "description": "Muestra el código para recibir el premio"
+    }
+  },
+  "nav-bar": {
+    "events": "Mis Eventos",
+    "validate": "Validar código",
+    "profile": "Ajustes"
+  },
+  "register-screen": {
+    "title": "Registro",
+    "username": "Nombre",
+    "ph-username": "Nombre",
+    "lastName": "Apellidos",
+    "ph-lastName": "Apellidos",
+    "email": "Correo electrónico",
+    "ph-email": "Correo electrónico",
+    "password": "Contraseña",
+    "ph-password": "Contraseña",
+    "advice-password": "La contraseña tiene que contener una mayuscula, un numero y minimo 8 caracteres",
+    "next": "Siguiente"
+  },
+  "collectible-detail-screen": {
+    "see-nft": "Ver NFT",
+    "see-qr": "Ver QR",
+    "you-have": "Tienes",
+    "codes": "códigos",
+    "scanned": "Conseguido el",
+    "tickets-link": "Comprar entradas",
+    "copy": "Copiar",
+    "your-code": "Tu código"
+  },
+  "event-detail-screen": {
+    "details": "Descripción"
+  },
+  "code-scanner-screen": {
+    "instruction": "Ubica el código dentro del recuadro para generar tu nuevo Ticket"
+  },
+  "terms-and-conditions-screen": {
+    "title": "Términos y condiciones",
+    "body": "¡Estupendo! Antes de continuar y acceder a la aplicación, es importante que leas y aceptes nuestros Términos y Condiciones. Te recomendamos revisarlos detenidamente para garantizar una experiencia óptima y estar informado sobre cómo utilizar nuestros servicios de forma adecuada.",
+    "link": "Ver más términos y condiciones",
+    "termsAndConditions": "Acepto los Términos y Condiciones",
+    "button": "Continuar",
+    "condition": "Acepto la",
+    "privacyPolicy": "Política de Privacidad"
+  },
+  "ticket-list": {
+    "empty-message": "¡Escanea tu primer código!",
+    "button": "Validar código"
+  },
+  "ticket-status": {
+    "awaiting": "En espera",
+    "onSale": "A la venta",
+    "holderChange": "Cambio de titular",
+    "winner": "Premiado",
+    "loser": "No premiado"
+  },
+  "dropdown": {
+    "name": "Nombre",
+    "lastName": "Apellido",
+    "email": "Correo electrónico",
+    "price": "Precio",
+    "purchaseID": "Código de compra"
+  },
+  "errors": {
+    "ops": "Oops!",
+    "login-incorrect": "Usuario o contraseña incorrectas",
+    "login-unknown": "Ha ocurrido un error",
+    "register-taken": "El email ya esta siendo utilizado",
+    "register-invalid-register": "Comprueba los datos",
+    "register-unknown": "Ha ocurrido un error",
+    "scan-incorrect-code": "Código incorrecto",
+    "scan-time": "No ha pasado el tiempo suficiente para escanear otro código",
+    "scan-unknown": "Ha ocurrido un error"
+  },
+  "ticket-detail": {
+    "titular-data": "Datos del titular",
+    "complete-name": "Nombre completo",
+    "email-address": "Dirección del correo electrónico",
+    "mark-as-used": "Marcar como usado",
+    "mark-as-unused": "Marcar como no usado"
+  }
+}

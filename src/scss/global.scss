@@ -1,0 +1,128 @@
+@import "./colors.scss";
+@import "./fonts.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+}
+
+.bg {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #FF7E9E;
+}
+
+.text-secondary {
+  color: #44434780;
+}
+
+.form-container {
+  width: 100vw;
+  padding: 0px 16px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+// -- LAYOUT --
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-end {
+  align-items: end;
+}
+
+// -- THEME --
+
+.light-bg {
+  background: $LIGHT-BG;
+}
+
+.dark-bg {
+  background: $DARK-BG;
+}
+
+.light-text {
+  color: $GRAY-100;
+}
+
+.light-text-secondary {
+  color: $GRAY-50;
+}
+
+.dark-text {
+  color: $WHITE-100;
+}
+
+.dark-text-secondary {
+  color: $WHITE-50;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.expanded {
+  display: flex;
+  flex: 1;
+}
+
+
+// PAGE TRANSITION
+.active-page {
+  animation: pageTransition 0.2s forwards;
+}
+
+@keyframes pageTransition {
+  0% {
+    opacity: 0;
+    margin-left: 100%;
+  }
+
+  100% {
+    opacity: 1;
+    margin-left: 0%;
+  }
+}

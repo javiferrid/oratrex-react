@@ -1,0 +1,45 @@
+@import '../../scss/colors.scss';
+
+.welcome-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.welcome-image-container::after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.light-welcome-bg::after {
+  background: linear-gradient(0deg, #e9e7f4 0%, rgba(130, 126, 152, 0) 50%);
+}
+
+#welcome-image {
+  display: block;
+  width: 90vw;
+  height: 60vh;
+  object-fit: contain;
+}
+
+.welcome-buttons {
+  margin-top: 40px;
+  gap: 16px
+}
+
+.welcome-body {
+  padding-top: 40px;
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+}
+
+.dark-welcome-body-bg {
+  // background: linear-gradient(0deg, #221D37 85%, rgba(130, 126, 152, 0) 100%);
+}

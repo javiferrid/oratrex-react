@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "date": "Sun Jul 06 2023 00:00:00 GMT+0200",
+    "eventName": "Kombutxa Festival Oratrex",
+    "img": "assets/tickets/pink2.png",
+    "clientColor": "#E7718D",
+    "type": "collection",
+    "time": "17:30",
+    "location": "Parc del Fòrum, Barcelona"
+  },
+  {
+    "id": "2",
+    "date": "Sun Jul 06 2023 00:00:00 GMT+0200",
+    "eventName": "Oratrex Fest",
+    "img": "assets/tickets/yellow2.png",
+    "clientColor": "#E7718D",
+    "type": "event",
+    "time": "17:30",
+    "location": "Parc del Fòrum, Barcelona"
+  },
+  {
+    "id": "8414100302643",
+    "date": "Sun Jul 06 2023 00:00:00 GMT+0200",
+    "eventName": "Oratrex Fest",
+    "img": "assets/tickets/yellow2.png",
+    "clientColor": "#E7718D",
+    "type": "event",
+    "time": "17:30",
+    "location": "Parc del Fòrum, Barcelona"
+  }
+]

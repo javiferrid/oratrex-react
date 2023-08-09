@@ -1,0 +1,57 @@
+.overlap {
+  margin-top: -8px;
+}
+
+.overlap:first-child {
+  margin-top: 0px;
+}
+
+.ticket-list {
+  width: 100%;
+  margin-bottom: 100px;
+
+  ul {
+    padding-bottom: 90px;
+  }
+
+  li:nth-child(6) > div {
+    background-color: rgb(255, 127, 159);
+  }
+}
+
+.empty-list {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, 60%);
+  gap: 16px;
+
+  .message {
+    text-align: center;
+    width: 90vw;
+  }
+}
+
+.glow-text {
+  animation: glowy 2s ease-in-out infinite;
+  border-radius: 12px;
+  color: transparent;
+  display: inline-block;
+}
+
+@keyframes glowy {
+  0% {
+    opacity: 0.6;
+    background-color: #ffffff;
+  }
+
+  30% {
+    opacity: 0.2;
+    background-color: #ffffff;
+  }
+
+  100% {
+    opacity: 0.6;
+    background-color: #ffffff;
+  }
+}
